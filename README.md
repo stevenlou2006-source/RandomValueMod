@@ -67,3 +67,13 @@ A：v2.0.0 已彻底修复此问题。如果仍发生，请确认房主和客户
 
 **Q：如何查看详细日志？**  
 A：在配置文件中将 `详细日志 = true`，然后在 BepInEx 控制台查看输出。
+
+---
+
+## 许可证
+
+本项目以 **GNU General Public License v3.0** 发布。
+
+Copyright (C) 2026 cn_xc
+
+完整条款见仓库根目录 [LICENSE](LICENSE)。
