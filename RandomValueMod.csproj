@@ -12,6 +12,7 @@
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,6 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -34,20 +36,12 @@
     <Reference Include="0Harmony">
       <HintPath>..\RandomWeightAndValueMod\bin\Debug\0Harmony.dll</HintPath>
     </Reference>
-    <Reference Include="AdvancedREPO.Config">
-      <HintPath>..\AdvancedREPO.Config.dll</HintPath>
-    </Reference>
-    <Reference Include="AdvancedREPO.Patcher">
-      <HintPath>..\AdvancedREPO.Patcher.dll</HintPath>
-    </Reference>
-    <Reference Include="AdvancedREPO.Utils">
-      <HintPath>..\AdvancedREPO.Utils.dll</HintPath>
-    </Reference>
+    <!-- 公共化后的 Assembly-CSharp.dll（由 Bepinex-Publicizer 插件生成） -->
     <Reference Include="Assembly-CSharp">
-      <HintPath>..\RandomWeightAndValueMod\bin\Debug\Assembly-CSharp.dll</HintPath>
+      <HintPath>..\Assembly-CSharp.dll</HintPath>
     </Reference>
-    <Reference Include="Assembly-CSharp-firstpass">
-      <HintPath>..\RandomWeightAndValueMod\bin\Debug\Assembly-CSharp-firstpass.dll</HintPath>
+    <Reference Include="Assembly-CSharp-firstpass_publicized">
+      <HintPath>..\Assembly-CSharp-firstpass_publicized.dll</HintPath>
     </Reference>
     <Reference Include="BepInEx">
       <HintPath>..\RandomWeightAndValueMod\bin\Debug\BepInEx.dll</HintPath>
@@ -67,6 +61,9 @@
     <Reference Include="PhotonUnityNetworking.Utilities">
       <HintPath>..\RandomWeightAndValueMod\bin\Debug\PhotonUnityNetworking.Utilities.dll</HintPath>
     </Reference>
+    <Reference Include="RandomValueModLib">
+      <HintPath>..\RandomValueModLib.dll</HintPath>
+    </Reference>
     <Reference Include="REPOConfig">
       <HintPath>..\RandomWeightAndValueMod\bin\Debug\REPOConfig.dll</HintPath>
     </Reference>
@@ -84,14 +81,16 @@
     <Reference Include="UnityEngine">
       <HintPath>..\RandomWeightAndValueMod\bin\Debug\UnityEngine.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.CoreModule">
+    <Reference Include="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\RandomWeightAndValueMod\bin\Debug\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.PhysicsModule">
       <HintPath>..\RandomWeightAndValueMod\bin\Debug\UnityEngine.PhysicsModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>..\RandomWeightAndValueMod\bin\Debug\UnityEngine.UI.dll</HintPath>
+    <Reference Include="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\UnityEngine.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

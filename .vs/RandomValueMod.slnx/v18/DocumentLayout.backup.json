@@ -14,24 +14,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "RandomValueMod.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\my mod\\RandomValueMod\\RandomValueMod.cs",
               "RelativeDocumentMoniker": "RandomValueMod.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\my mod\\RandomValueMod\\RandomValueMod.cs*",
-              "RelativeToolTip": "RandomValueMod.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAABAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\User\\Desktop\\my mod\\RandomValueMod\\RandomValueMod.cs",
+              "RelativeToolTip": "RandomValueMod.cs",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAAwLQBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-03T13:47:37.177Z",
+              "WhenOpened": "2026-03-08T08:55:37.755Z",
               "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

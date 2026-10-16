@@ -1,0 +1,11 @@
+
+{
+    "name": "RandomValueMod",
+    "version_number": "2.0.8",
+    "website_url": "",
+    "description": "已支持至 REPO v0.4.4 版本，交流QQ群573485890， 抓取时随机化贵重物品价格。支持黑白名单、现金袋保护、多人同步、。",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100",
+        "cn_xc-RandomValueLib-1.0.5"
+    ]
+}
